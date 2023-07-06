@@ -13,6 +13,7 @@ main {
 
 main article {
   flex: 2;
+  background-color: bisque;
 }
 
 main aside {
