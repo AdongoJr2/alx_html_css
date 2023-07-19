@@ -1,0 +1,19 @@
+/*==== MY CSS ====*/
+@font-face {
+  font-family: SourceSansPro;
+  src: url("./fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+  font-family: SpinCycle;
+  src: url("./fonts/spincycle_ot.otf");
+}
+
+:root {
+  --primary: #FF6565;
+}
+
+html {
+  font-family: SourceSansPro;
+  font-style: normal;
+}
