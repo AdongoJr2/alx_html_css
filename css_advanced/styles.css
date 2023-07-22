@@ -346,3 +346,116 @@ header .nav-links {
   font-weight: 400;
   font-style: italic;
 }
+
+.section-3 {
+  padding: 87px 0;
+}
+
+.section-3 .title {
+  color: #071629;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.section-3 .title .popular {
+  font-weight: 700;
+}
+
+.section-3 .tutorials {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.section-3 .tutorials .tutorial-item {
+  width: 255px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+  position: relative;
+}
+
+.tutorial-item img {
+  width: 255px;
+  height: 154px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tutorial-item .play-icon {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tutorial-item .title,
+.tutorial-item .description,
+.tutorial-item .avatar,
+.tutorial-item .rating {
+  margin-left: 13px;
+}
+
+.tutorial-item .title {
+  margin-top: 18px;
+  color: rgba(7, 22, 41, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+}
+
+.tutorial-item .description {
+  margin-top: 7.6px;
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tutorial-item .avatar {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  margin-top: 15.4px;
+}
+
+.tutorial-item .avatar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.tutorial-item .avatar h4 {
+  color: var(--primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.tutorial-item .rating {
+  margin-top: 14px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  column-gap: 79px;
+}
+
+.tutorial-item .rating img {
+  width: 107px;
+  height: 15px;
+}
+
+.tutorial-item .rating h4 {
+  color: var(--primary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
