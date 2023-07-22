@@ -177,6 +177,10 @@ a {
   color: var(--primary);
 }
 
+.avatar {
+  border-radius: 50%
+}
+
 html {
   font-family: SourceSansPro;
   font-style: normal;
@@ -308,4 +312,37 @@ header .nav-links {
   font-style: italic;
   font-weight: 400;
   line-height: 24px;
+}
+
+.section-2 {
+  color: #FFF;
+  padding-top: 108px;
+  padding-left: 260px;
+  height: 392px;
+  background-color: var(--primary);
+  display: flex;
+  column-gap: 53px;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 33.6px;
+}
+
+.section-2 img {
+  width: 160px;
+  height: 160px;
+}
+
+.section-2 .quote {
+  font-weight: 400;
+  max-width: 730px;
+}
+
+.section-2 .author-name {
+  font-weight: 700;
+  margin-top: 22px;
+}
+
+.section-2 .author-description {
+  font-weight: 400;
+  font-style: italic;
 }
