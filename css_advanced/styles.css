@@ -459,3 +459,54 @@ header .nav-links {
   font-weight: 600;
   line-height: 27px;
 }
+
+.section-4 {
+  padding-top: 70px;
+  color: #FFF;
+  background-color: rgba(7, 22, 41, 1);
+  text-align: center;
+}
+
+.section-4 .title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.section-4 .title .free {
+  font-weight: 700;
+}
+
+.section-4 .memberships {
+  margin-top: 58px;
+  display: flex;
+  justify-content: center;
+  column-gap: 28px;
+}
+
+.section-4 .memberships .membership-item {
+  width: 257px;
+  height: 153px;
+}
+
+.membership-item .title {
+  margin-top: 26.62px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.membership-item .description {
+  margin: 0 auto;
+  margin-top: 13px;
+  width: 212px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.section-4 .register {
+  margin-top: 85px;
+  margin-bottom: 52px;
+}
