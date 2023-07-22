@@ -510,3 +510,47 @@ header .nav-links {
   margin-top: 85px;
   margin-bottom: 52px;
 }
+
+.section-5 {
+  margin: 0 auto;
+  padding-top: 67px;
+  padding-bottom: 84px;
+  width: 920px;
+}
+
+.section-5>.title {
+  display: block;
+  color: #071629;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.section-5 .faqs {
+  display: flex;
+  justify-content: center;
+  column-gap: 220px;
+}
+
+.faq-column-item {
+  margin-top: 74px;
+}
+
+.faq-column-item .title {
+  color: #071629;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.faq-column-item .description {
+  margin-top: 30px;
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
