@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form id="form">
+        <label for="name">name</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="name" required>
+        <br><br>
+
+        <label for="email">email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="email" required>
+        <br><br>
+
+        <span>feedback options</span>
+        <br>
+        <input type="checkbox" id="excellent" name="excellent" value="true">
+        <label for="excellent">excellent</label>
+        <br>
+        <input type="checkbox" id="good" name="good" value="true">
+        <label for="good">good</label>
+        <br>
+        <input type="checkbox" id="average" name="average" value="true">
+        <label for="average">average</label>
+        <br>
+        <input type="checkbox" id="poor" name="poor" value="true">
+        <label for="poor">poor</label>
+        <br><br>
+
+        <input type="file" name="file" id="file" required>
+        <br><br>
+
+        <button type="submit">submit</button>
+    </form>
+
+    <script>
+        (function () {
+            const form = document.querySelector('#form');
+            const checkboxes = form.querySelectorAll('input[type=checkbox]');
+            const checkboxLength = checkboxes.length;
+            const firstCheckbox = checkboxLength > 0 ? checkboxes[0] : null;
+
+            function init() {
+                if (firstCheckbox) {
+                    for (let i = 0; i < checkboxLength; i++) {
+                        checkboxes[i].addEventListener('change', checkValidity);
+                    }
+
+                    checkValidity();
+                }
+            }
+
+            function isChecked() {
+                for (let i = 0; i < checkboxLength; i++) {
+                    if (checkboxes[i].checked) return true;
+                }
+
+                return false;
+            }
+
+            function checkValidity() {
+                const errorMessage = !isChecked() ? 'At least one checkbox must be selected.' : '';
+                firstCheckbox.setCustomValidity(errorMessage);
+            }
+
+            init();
+        })();
+    </script>
+</body>
+
+</html>
